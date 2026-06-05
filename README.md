@@ -145,12 +145,6 @@ Support
 Notes
 - This README is intentionally concise — consult `ModelData.kt` for exact model variants, sizes, and format details.
 
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=timmyy123/LLM-Hub&type=date&legend=top-left)](https://www.star-history.com/#timmyy123/LLM-Hub&type=date&legend=top-left)
-
-
-
+ 
 
 
