@@ -1,0 +1,62 @@
+name: runanywhere_ai
+description: RunAnywhere AI Flutter example app demonstrating on-device AI capabilities
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # RunAnywhere SDK - Core
+  runanywhere:
+    path: ../../../sdk/runanywhere-flutter/packages/runanywhere
+
+  # RunAnywhere SDK - LlamaCpp Backend (LLM)
+  runanywhere_llamacpp:
+    path: ../../../sdk/runanywhere-flutter/packages/runanywhere_llamacpp
+  provider: ^6.1.0
+  flutter_markdown: ^0.6.18
+  record: ^6.1.0
+  audioplayers: ^6.0.0
+  permission_handler: ^11.1.0
+  shared_preferences: ^2.2.2
+  # Secure storage (iOS Keychain, Android Keystore)
+  flutter_secure_storage: ^9.0.0
+  # File system access
+  path_provider: ^2.1.0
+  # UUID generation
+  uuid: ^4.0.0
+  # Device information
+  device_info_plus: ^10.0.0
+  # App package info
+  package_info_plus: ^4.2.0
+  # URL launcher
+  url_launcher: ^6.2.0
+  # HTTP client for API calls
+  http: ^1.2.0
+  # Camera access for VLM
+  camera: ^0.11.0
+  # Image picker for gallery photos
+  image_picker: ^1.0.0
+  # Image manipulation (BGRA to RGB pixel conversion)
+  image: ^4.0.0
+  # File picker for PDF/JSON document selection (RAG)
+  file_picker: ^8.0.0
+  # PDF text extraction (RAG)
+  syncfusion_flutter_pdf: ^27.1.48
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Force all packages to use local path dependencies during development
+dependency_overrides:
+  runanywhere:
+    path: ../../../sdk/runanywhere-flutter/packages/runanywhere
+
+flutter:
+  uses-material-design: true
