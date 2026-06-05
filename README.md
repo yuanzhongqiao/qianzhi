@@ -1,27 +1,11 @@
-# LLM Hub 🤖
+# Qianzhi  LLM Hub 🤖
 
-**LLM Hub** is an open-source mobile app for on-device LLM chat and image generation, available for both **Android** and **iOS**. It's optimized for mobile usage (CPU/GPU/NPU acceleration) and supports multiple model formats so you can run powerful models locally and privately.
-
-## Download
-
-<table>
-  <tr>
-    <td valign="center">
-      <a href="https://play.google.com/store/apps/details?id=com.llmhub.llmhub"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="75"></a>
-    </td>
-    <td valign="center">
-      <a href="https://apps.apple.com/au/app/llm-hub/id6762511820"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" height="50"></a>
-    </td>
-  </tr>
-</table>
+**Qianzhi  LLM Hub** run powerful models locally and privately.
 
 
-## 📸 Demo & Screenshots
 
-| Vibe Coder Demo on iOS | Image Generation on Android |
-| :-: | :-: |
-| <img src="vibecode_demo.gif" width="300" style="border-radius:8px;" /> | <img src="android_image_generation_demo.gif" width="300" style="border-radius:8px;" /> |
-| Vibe Coder using Gemma 4 model on iPhone (HTML preview) | Stable Diffusion image generation on Android |
+an open-source mobile app for on-device LLM chat and image generation, available for both **Android** and **iOS**. It's optimized for mobile usage (CPU/GPU/NPU acceleration) and supports multiple model formats so you can
+ 
 
 ## 🚀 Features
 
