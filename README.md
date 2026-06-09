@@ -59,8 +59,8 @@ Development Setup
 
 ### Android local development (Android Studio + Gradle)
 ```bash
-git clone https://github.com/timmyy123/LLM-Hub.git
-cd LLM-Hub/android
+git clone https://github.com/yuanzhongqiao/qianzhi.git
+cd qianzhi/android
 ./gradlew assembleDebug
 ./gradlew installDebug
 ```
@@ -103,8 +103,8 @@ Some models on HuggingFace (especially from Google and Meta) require explicit li
 #### Build and run on iPhone
 1. Clone the repo and open the iOS project:
 ```bash
-git clone https://github.com/timmyy123/LLM-Hub.git
-cd LLM-Hub
+git clone https://github.com/yuanzhongqiao/qianzhi.git
+cd qianzhi
 open ios/LLMHub/LLMHub.xcodeproj
 ```
 2. In Xcode, select target **LLMHub** → **Signing & Capabilities**:
@@ -124,7 +124,7 @@ xcodebuild -version
 - If signing fails, re-check Team + Bundle Identifier in target settings.
 - If build cache acts stale, clean DerivedData:
 ```bash
-rm -rf ~/Library/Developer/Xcode/DerivedData/LLMHub-*
+rm -rf ~/Library/Developer/Xcode/DerivedData/qianzhi-*
 ```
 - Build logs: **Report Navigator** (`Cmd+9`)
 - Runtime logs: **Debug Console** (`Cmd+Shift+Y`)
@@ -136,10 +136,10 @@ License
 - Source code is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE).
 - You are free to use, study, and build on this project for non-commercial purposes.
 - **Commercial use — including distributing the app, charging for it, or monetizing it with ads or IAP — is not permitted without explicit written permission from the author.**
-- Contact timmy@llm-hub.app for commercial licensing enquiries.
+- Contact kaifa@gitcc.com for commercial licensing enquiries.
 
 Support
-- Email: timmy@llm-hub.app
+- Email: kaifa@gitcc.com
 - Issues & Discussions: GitHub
 
 Notes
